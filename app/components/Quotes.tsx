@@ -12,6 +12,12 @@ export default function Quotes() {
           className="ml-auto mr-auto"
         />
       </div>
+
+      <p className="italic text-xl mb-6 mt-12">
+        “A nuestro padres, gracias por su amor. Hoy iniciamos esta nueva etapa
+        con gratitud en el corazón.”
+      </p>
+
       <p className="italic text-xl mb-6 mt-12">
         “El amor no consiste en mirarse el uno al otro, sino en mirar juntos en
         la misma dirección.”

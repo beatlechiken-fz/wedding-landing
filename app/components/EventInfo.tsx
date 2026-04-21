@@ -31,15 +31,21 @@ export default function EventInfo() {
           <p className="text-sm opacity-70">24 de Abril · 10:00 AM</p>
 
           <div className="flex flex-col w-full mt-10">
-            <Image
-              src="/location.svg"
-              alt=""
-              width={50}
-              height={50}
-              className="ml-auto mr-auto"
-            />
-            <p className="text-md opacity-70 mt-5">20 de noviembre #415</p>
-            <p className="text-md opacity-70">Centro histórico de Morelia</p>
+            <a
+              href="https://maps.app.goo.gl/R34YHTmVXjLSkMjXA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center"
+            >
+              <Image src="/location.svg" alt="" width={50} height={50} />
+
+              <p className="text-md opacity-70 mt-5 hover:underline">
+                20 de noviembre #415
+              </p>
+              <p className="text-md opacity-70 hover:underline">
+                Centro histórico de Morelia
+              </p>
+            </a>
           </div>
         </div>
 
@@ -60,15 +66,21 @@ export default function EventInfo() {
           <p className="text-2xl">Restaurante Casa Paula</p>
           <p className="text-sm opacity-70">24 de Abril · 11:00 AM</p>
           <div className="flex flex-col w-full mt-10">
-            <Image
-              src="/location.svg"
-              alt=""
-              width={50}
-              height={50}
-              className="ml-auto mr-auto"
-            />
-            <p className="text-md opacity-70 mt-5">Mariano Arista #315</p>
-            <p className="text-md opacity-70">Chapultepec Oriente</p>
+            <a
+              href="https://maps.app.goo.gl/Jp2AKMbiZEpD6KXV8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center"
+            >
+              <Image src="/location.svg" alt="" width={50} height={50} />
+
+              <p className="text-md opacity-70 mt-5 hover:underline">
+                Mariano Arista #315
+              </p>
+              <p className="text-md opacity-70 hover:underline">
+                Chapultepec Oriente
+              </p>
+            </a>
           </div>
         </div>
       </div>
