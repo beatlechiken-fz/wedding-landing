@@ -14,7 +14,7 @@ export default function Quotes() {
       </div>
 
       <p className="italic text-xl mb-6 mt-12">
-        “A nuestro padres, gracias por su amor. Hoy iniciamos esta nueva etapa
+        “A nuestros padres, gracias por su amor. Hoy iniciamos esta nueva etapa
         con gratitud en el corazón.”
       </p>
 
