@@ -1,17 +1,29 @@
 @import "tailwindcss";
 
 :root {
+  /* Base */
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Paleta boda */
+  --color-primary: #3a5a40;
+  --color-secondary: #a3b18a;
+  --color-accent: #dad7cd;
+  --color-accent-light: #ebe9e3;
+  --color-light: #f8f9f7;
+  --color-green-light: #e2e5de;
+
+  /* Fonts (Next.js las inyecta) */
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
+/* Dark mode opcional (puedes quitarlo si no lo usarás) */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -19,8 +31,19 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Base styles */
+@layer base {
+  body {
+    background: var(--color-light); /* más elegante que blanco puro */
+    color: var(--color-primary);
+    font-family: var(--font-sans), sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-serif), serif;
+    letter-spacing: 0.02em;
+  }
 }
