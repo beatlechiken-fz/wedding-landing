@@ -63,7 +63,10 @@ export default function EventInfo() {
               className="ml-auto mr-auto"
             />
           </div>
-          <h3 className="font-[var(--font-playfair)] text-2xl text-4xl mb-4 font-bold">
+          <h3
+            translate="no"
+            className="font-[var(--font-playfair)] text-2xl text-4xl mb-4 font-bold"
+          >
             Brunch
           </h3>
           <p className="text-2xl">Restaurante Casa Paula</p>
