@@ -13,7 +13,7 @@ export default function Hero() {
       {/* Fondo */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/img/hero-wedding.webp"
+          src="/img/hero-wedding-splash.webp"
           alt="hero"
           fill
           priority

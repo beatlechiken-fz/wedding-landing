@@ -3,7 +3,7 @@ import { useState, useRef } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
-const images = Array.from({ length: 31 }, (_, i) => `/img/${i + 1}.webp`);
+const images = Array.from({ length: 6 }, (_, i) => `/img/${i + 1}.webp`);
 
 export default function Gallery() {
   const [index, setIndex] = useState(0);
