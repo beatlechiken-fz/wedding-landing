@@ -27,7 +27,10 @@ export default function EventInfo() {
           <h3 className="font-[var(--font-playfair)] text-4xl mb-4 font-bold">
             Ceremonia Civil
           </h3>
-          <p className="text-2xl">Registro Civil</p>
+          <p className="text-2xl">Oficialía 01 - Registro Civil</p>
+          <p className="text-sm opacity-70">
+            Agradecemos llegar con anticipación
+          </p>
           <p className="text-sm opacity-70">24 de Abril · 10:00 AM</p>
 
           <div className="flex flex-col w-full mt-10">
